@@ -1,0 +1,11 @@
+langchain
+langchain-community
+python-dotenv
+deeplake
+tiktoken
+langchain_google_genai
+groq
+yt_dlp
+whisper
+streamlit
+os
