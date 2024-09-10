@@ -1,13 +1,13 @@
 import streamlit as st
-import yt_dlp
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.vectorstores import DeepLake
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from groq import Groq
 from dotenv import load_dotenv
+from groq import Groq
+import yt_dlp
 import os
 
 load_dotenv()
