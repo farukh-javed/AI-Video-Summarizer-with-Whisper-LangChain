@@ -5,7 +5,7 @@ deeplake
 tiktoken
 langchain_google_genai
 groq
-yt_dlp
 whisper
+yt_dlp
 streamlit
 os
